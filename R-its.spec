@@ -11,8 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-methods R-stats R-Hmisc 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-stats R-Hmisc
+Requires:         R-methods R-stats R-Hmisc
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-stats R-Hmisc
 
 %description
 The its package contains an S4 class for handling irregular time series
