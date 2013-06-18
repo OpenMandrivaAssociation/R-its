@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.1.8
-Release:          1
+Release:          2
 Summary:          Irregular Time Series
 Group:            Sciences/Mathematics
 License:          GPL-2
